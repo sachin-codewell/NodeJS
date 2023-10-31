@@ -1,0 +1,12 @@
+{
+  "name": "lecture1",
+  "version": "1.0.0",
+  "description": "1- NodeJs is run time environment for JS that provides many to resources to javascript to make js powerfull.\r resources - event loop,setTimeOut,callback queue, micro queue, fs, os, path, api call, processes and runtime variable.",
+  "main": "index.js",
+  "type":"module", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sachin Yadav",
+  "license": "ISC"
+}
