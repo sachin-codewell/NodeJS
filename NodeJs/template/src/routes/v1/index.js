@@ -1,13 +1,7 @@
 const express = require('express');
-
+const airplaneRoutes = require('./airplane-route')
 const router = express.Router();
 
-router.get('/home', (req,res)=>{
-    res.send({
-        success:true,
-        data:{name:"Sachin Yadav"},
-        error:{}
-    })
-})
+router.use('/airplane',airplaneRoutes)
 
 module.exports = router;

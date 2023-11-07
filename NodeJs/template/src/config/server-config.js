@@ -1,4 +1,4 @@
-require('dotenv').config({path:__dirname.replaceAll('\\' , '/')+'/../../.env'});;
+require('dotenv').config({path:__dirname.replaceAll('\\' , '/')+'/../../.env'});
 
 
 module.exports = {
