@@ -25,3 +25,15 @@ for(let i = 0; i < 10000000000; i++) {}
 
 console.log("ending");
 //op -  
+/* not for loop
+ending
+rejecting the promise
+we reject1 with a value Done
+we reject2 with a value Done
+
+having for loop
+
+ending
+rejecting the promise
+we reject1 with a value Done
+we reject2 with a value Done */
