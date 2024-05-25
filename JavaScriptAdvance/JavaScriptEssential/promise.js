@@ -1,5 +1,6 @@
 /*Promise - The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 1- helps to solve the problem of inversion of control.
+Inversion of control - 
 2- callback hell
 3- it acts as placeholder(take place of result) in those situation where we are expecting results in future.
 4- an object that is returned immediately.And promise is native to javascript so promise creation is synchronous
