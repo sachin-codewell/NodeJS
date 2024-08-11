@@ -25,7 +25,7 @@ op- {
   company: 'WIPRO',
   details: [Function: details]
 }
-SachinMERN3.5WIPRO
+Sachin MERN 3.5 WIPRO
 
 2- arrow function doest not know about the 'this' keyword so it looks for lexical chaining
 exapmle:
