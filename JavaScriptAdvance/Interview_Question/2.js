@@ -24,6 +24,7 @@ function computeAmount() {
 }
 
 console.log(computeAmount().thousends(2).lacs(2).crore(5).value())
+console.log(computeAmount());  // will reffer to the global object.
 
 /*When computeAmount is called with new or as a method, a new object is created, and this inside the function refers to that new object.
 this.amount = 0; initializes the amount property on the this object with a value of 0.*/

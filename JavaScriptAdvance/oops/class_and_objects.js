@@ -28,12 +28,12 @@ class Product {
 
   //if we want to use set and get method as a varibale
   get getRating() {
-    return this.#rating;
+    return this.#rating;  //p.getRating
   }
 
   set setRating(rating) {
     if (rating < 0) {
-      throw new Error("Rating cant be negative");
+      throw new Error("Rating cant be negative");  //p.setRating = 4.3
     }
     this.#rating = rating;
     return this.#rating;

@@ -60,3 +60,10 @@ op = {
   'this' is unknown in arrow function so it will look for 'this' in parent's lexical scope means in
   display function. And in display dunction calling context is user3.
 } */
+
+
+let learning = function() {
+    console.log(this); // Logs 'undefined' in strict mode
+  }
+  learning();
+  

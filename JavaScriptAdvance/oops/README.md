@@ -89,3 +89,4 @@ console.log(s1);
 op-  { name: 'Sachin', rollnumber: 20464248, course: 'B.tech' }
 
 
+7- 
